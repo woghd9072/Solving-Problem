@@ -10,5 +10,5 @@
 |IDE|IntelliJ|
 |JDK|JDK 8|
 
-### ch1
+### [ch1](https://github.com/woghd9072/Solving-Problem/tree/master/src/Ch1)
 - (자바기초,큰정수,복잡도,배열,정렬,k-th최대값)
