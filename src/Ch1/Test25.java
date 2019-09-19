@@ -10,6 +10,7 @@ public class Test25 {
         Random random = new Random();
 
         for (int i=0; i<N; i++) n[i] = random.nextInt(M);
+        Arrays.sort(n);
 
         double v = 0;
         if (N%2 == 0) {
