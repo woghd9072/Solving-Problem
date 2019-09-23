@@ -12,3 +12,6 @@
 
 ### [ch1](https://github.com/woghd9072/Solving-Problem/tree/master/src/Ch1)
 - (자바기초,큰정수,복잡도,배열,정렬,k-th최대값)
+
+### [ch2](https://github.com/woghd9072/Solving-Problem/tree/master/src/Ch2)
+- (배열연결리스트 임의접근, 첫위치삽입 시간복잡도 비교)

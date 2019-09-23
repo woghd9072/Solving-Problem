@@ -1,5 +1,6 @@
 package Ch1;
 
+import java.util.Arrays;
 import java.util.Random;
 
 public class Test29 {
@@ -9,5 +10,17 @@ public class Test29 {
         Random random = new Random();
 
         for (int i=0; i<N; i++) n[i] = random.nextInt(M);
+        System.out.println(Arrays.toString(n));
+
+        int k=4;
+        while(k>0) {
+            int temp = n[N-1];
+            for(int i=N-1; i>0; i--) {
+                n[i] = n[i-1];
+            }
+            n[0] = temp;
+            k--;
+        }
+        System.out.println(Arrays.toString(n));
     }
 }
