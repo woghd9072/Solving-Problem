@@ -1,21 +1,35 @@
 package Ch3;
 
 public class SimpleList {
-    Node head, tail;
+    Node head;
+    Node tail;
 
     public void addFirst(int data) {
         Node newNode = new Node(data);
         newNode.next = head;
         head = newNode;
+        tail = head.next;
     }
+
+//    public void addLast(int data) {
+//        Node newNode = new Node(data);
+//        if (head != null) {
+//            Node p = head;
+//            while (p.next != null) p = p.next;
+//            p.next = newNode;
+//        } else head = newNode;
+//    }
 
     public void addLast(int data) {
         Node newNode = new Node(data);
-        if (head != null) {
-            Node p = head;
-            while (p.next != null) p = p.next;
-            p.next = newNode;
-        } else head = newNode;
+        if (head == null && tail == null) {
+            head = newNode;
+            tail = newNode;
+        } else {
+            tail.next = newNode;
+            newNode.prev = tail;
+            tail = newNode;
+        }
     }
 
     public void removeFirst() {
@@ -50,7 +64,7 @@ public class SimpleList {
         String v="";
         for (Node p=head; p != null; p=p.next) {
             int cnt = 0;
-            if (i == cnt) v += p.data;
+            if (i == cnt) v = "" + p.data;
             cnt++;
         }
         return v;
