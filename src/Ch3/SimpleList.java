@@ -18,8 +18,8 @@ public class SimpleList {
     public void addFirst(int data) {
         Node newNode = new Node(data);
         if (head != null) {
-            newNode.next = head;
             head.prev = newNode;
+            newNode.next = head;
             head = newNode;
             tail = head.next;
         } else {
@@ -42,17 +42,26 @@ public class SimpleList {
         if (head == null && tail == null) {
             head = newNode;
             tail = newNode;
-        } else if (head != null && tail != null){
+        } else {
             tail.next = newNode;
             newNode.prev = tail;
             tail = newNode;
         }
     }
 
+//    public void removeFirst() {
+//        Node p = head;
+//        head = head.next;
+//        p.next = null;
+//    }
+
     public void removeFirst() {
-        Node p = head;
-        head = head.next;
-        p.next = null;
+        if (head != null) {
+            Node p = head;
+            head = head.next;
+            head.prev = null;
+            p.next = null;
+        }
     }
 
     public void removeLast() {
@@ -77,18 +86,13 @@ public class SimpleList {
         return size;
     }
 
-    public String get(int i) {
-        String v="";
+    public int get(int i) {
         Node p = head;
-        for (int n=0; n>=v.length(); n++) {
-            if (n == i) {
-                v += p.data;
-                break;
-            } else if (p != null) {
-                p = p.next;
-            };
+        while (i>0) {
+            p = p.next;
+            i--;
         }
-        return v;
+        return p.data;
     }
 
     @Override
