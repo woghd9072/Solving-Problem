@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="507d9baa-d2f0-46cb-be2c-c948cdfa17bc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Ch3/Test16.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Solving-Problem/Ch3/SimpleList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Solving-Problem/Ch3/SimpleList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Solving-Problem/META-INF/Solving-Problem.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Ch3/SimpleList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ch3/SimpleList.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -144,11 +141,9 @@
       <workItem from="1568595947193" duration="4896000" />
       <workItem from="1568869375866" duration="2051000" />
       <workItem from="1569200340583" duration="6264000" />
+      <workItem from="1569805524929" duration="1960000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27047000" />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -158,7 +153,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
