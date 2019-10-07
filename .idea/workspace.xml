@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="507d9baa-d2f0-46cb-be2c-c948cdfa17bc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Ch1/Test4_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch1/Test4_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch4/Test01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch4/Test03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch4/Test04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch4/Test05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch4/Test06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch4/Test10.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ch3/SimpleList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ch3/SimpleList.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,13 +51,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test16">
-    <configuration name="Test12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ch3.Test12" />
+  <component name="RunManager" selected="Application.Test10">
+    <configuration name="Test03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ch4.Test03" />
       <module name="Solving-Problem" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Ch3.*" />
+          <option name="PATTERN" value="Ch4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -58,12 +65,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test13 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ch3.Test13" />
+    <configuration name="Test04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ch4.Test04" />
       <module name="Solving-Problem" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Ch3.*" />
+          <option name="PATTERN" value="Ch4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ch3.Test14" />
+    <configuration name="Test05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ch4.Test05" />
       <module name="Solving-Problem" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Ch3.*" />
+          <option name="PATTERN" value="Ch4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test16" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ch3.Test16" />
+    <configuration name="Test06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ch4.Test06" />
       <module name="Solving-Problem" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Ch3.*" />
+          <option name="PATTERN" value="Ch4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test29" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ch1.Test29" />
+    <configuration name="Test10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ch4.Test10" />
       <module name="Solving-Problem" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Ch1.*" />
+          <option name="PATTERN" value="Ch4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test16" />
-        <item itemvalue="Application.Test14" />
-        <item itemvalue="Application.Test12" />
-        <item itemvalue="Application.Test13 (1)" />
-        <item itemvalue="Application.Test29" />
+        <item itemvalue="Application.Test10" />
+        <item itemvalue="Application.Test06" />
+        <item itemvalue="Application.Test05" />
+        <item itemvalue="Application.Test04" />
+        <item itemvalue="Application.Test03" />
       </list>
     </recent_temporary>
   </component>
@@ -141,7 +148,9 @@
       <workItem from="1568595947193" duration="4896000" />
       <workItem from="1568869375866" duration="2051000" />
       <workItem from="1569200340583" duration="6264000" />
-      <workItem from="1569805524929" duration="3837000" />
+      <workItem from="1569805524929" duration="4558000" />
+      <workItem from="1570349093033" duration="306000" />
+      <workItem from="1570409967816" duration="5841000" />
     </task>
     <servers />
   </component>
