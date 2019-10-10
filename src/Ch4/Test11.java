@@ -2,16 +2,18 @@ package Ch4;
 
 import java.util.Stack;
 
-public class Test10 {
+public class Test11 {
     public static void main(String[] args) {
-        String e = "3 1 2 / *";
+        String e="34 12 25/*";
         System.out.println(postfixEval(e));
     }
-
     private static double postfixEval(String e) {
-        Stack<Double> stack = new Stack<>();
+        Stack<Double> stack=new Stack<>();
+        String v[] = e.split("\\s+");
         double n1, n2;
+
         for (String token : e.split("\\s+")) {
+
             if ("+".equals(token)) {
                 n2 = stack.pop();
                 n1 = stack.pop();

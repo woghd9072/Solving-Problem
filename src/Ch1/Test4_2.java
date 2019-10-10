@@ -9,7 +9,6 @@ public class Test4_2 {
 
         long min = v[1] - v[0];
         for (int i=0; i<v.length; i++) {
-            System.out.println(min);
             for (int j=i+1; j<v.length; j++) {
                 if (min > v[j] - v[i]) {
                     min = v[j] - v[i];

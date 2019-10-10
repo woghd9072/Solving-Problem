@@ -11,7 +11,6 @@ public class Test4_1 {
                     min = Math.abs(v[i] - v[j]);
                 } else continue;
             }
-            System.out.println(min);
         }
 
         System.out.println(min);
