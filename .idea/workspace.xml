@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="507d9baa-d2f0-46cb-be2c-c948cdfa17bc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Ch4/SimpleStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch4/Test11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch4/Test13.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Solving-Problem/Ch1/Test4_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Solving-Problem/Ch1/Test4_1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Solving-Problem/Ch1/Test4_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Solving-Problem/Ch1/Test4_2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Solving-Problem/Ch4/Test10.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Solving-Problem/Ch4/Test10.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ch1/Test4_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ch1/Test4_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ch1/Test4_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ch1/Test4_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ch4/Test10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ch4/Test10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ch4/Test11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ch4/Test11.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +44,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test13">
+  <component name="RunManager" selected="Application.Test11">
     <configuration name="Test05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Ch4.Test05" />
       <module name="Solving-Problem" />
@@ -120,8 +112,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test13" />
         <item itemvalue="Application.Test11" />
+        <item itemvalue="Application.Test13" />
         <item itemvalue="Application.Test10" />
         <item itemvalue="Application.Test06" />
         <item itemvalue="Application.Test05" />
@@ -153,7 +145,7 @@
       <workItem from="1570349093033" duration="306000" />
       <workItem from="1570409967816" duration="6832000" />
       <workItem from="1570457985692" duration="15000" />
-      <workItem from="1570683964013" duration="2767000" />
+      <workItem from="1570683964013" duration="3420000" />
     </task>
     <servers />
   </component>

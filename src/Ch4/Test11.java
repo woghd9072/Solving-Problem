@@ -9,11 +9,13 @@ public class Test11 {
     }
     private static double postfixEval(String e) {
         Stack<Double> stack=new Stack<>();
-        String v[] = e.split("\\s+");
         double n1, n2;
+        e = e.replace("+", " +");
+        e = e.replace("-", " -");
+        e = e.replace("*", " *");
+        e = e.replace("/", " /");
 
         for (String token : e.split("\\s+")) {
-
             if ("+".equals(token)) {
                 n2 = stack.pop();
                 n1 = stack.pop();
