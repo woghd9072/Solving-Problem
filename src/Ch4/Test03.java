@@ -14,7 +14,5 @@ public class Test03 {
         while (!stack.isEmpty()) {
             System.out.print(stack.pop());
         }
-
-
     }
 }

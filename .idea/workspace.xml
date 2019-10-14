@@ -2,8 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="507d9baa-d2f0-46cb-be2c-c948cdfa17bc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch4/Test02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch4/Test16.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch4/Test17.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch4/Test19.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch5/Test01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch5/Test03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch5/Test04_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch5/Test04_2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ch4/Test11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ch4/Test11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Solving-Problem/Ch4/SimpleStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Solving-Problem/Ch4/SimpleStack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Solving-Problem/Ch4/Test03.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Solving-Problem/Ch4/Test03.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ch4/SimpleStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ch4/SimpleStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ch4/Test03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ch4/Test03.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +36,7 @@
   <component name="ProjectId" id="1RMOaznbMsJuHrtKFZN1vrLwqrv" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569206732545" />
@@ -44,13 +57,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test11">
-    <configuration name="Test05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ch4.Test05" />
+  <component name="RunManager">
+    <configuration name="Test03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ch5.Test03" />
       <module name="Solving-Problem" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Ch4.*" />
+          <option name="PATTERN" value="Ch5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -58,25 +71,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ch4.Test06" />
+    <configuration name="Test04_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ch5.Test04_1" />
       <module name="Solving-Problem" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Ch4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ch4.Test10" />
-      <module name="Solving-Problem" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Ch4.*" />
+          <option name="PATTERN" value="Ch5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,8 +97,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ch4.Test13" />
+    <configuration name="Test16" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ch4.Test16" />
+      <module name="Solving-Problem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Ch4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ch4.Test17" />
       <module name="Solving-Problem" />
       <extension name="coverage">
         <pattern>
@@ -112,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test04_1" />
+        <item itemvalue="Application.Test03" />
+        <item itemvalue="Application.Test17" />
+        <item itemvalue="Application.Test16" />
         <item itemvalue="Application.Test11" />
-        <item itemvalue="Application.Test13" />
-        <item itemvalue="Application.Test10" />
-        <item itemvalue="Application.Test06" />
-        <item itemvalue="Application.Test05" />
       </list>
     </recent_temporary>
   </component>
@@ -145,7 +158,8 @@
       <workItem from="1570349093033" duration="306000" />
       <workItem from="1570409967816" duration="6832000" />
       <workItem from="1570457985692" duration="15000" />
-      <workItem from="1570683964013" duration="3420000" />
+      <workItem from="1570683964013" duration="3464000" />
+      <workItem from="1571015040507" duration="6429000" />
     </task>
     <servers />
   </component>
