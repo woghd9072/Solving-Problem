@@ -11,10 +11,10 @@ public class Test04_1 {
         int c = 0;
         for (int i=1; i<=n; i++) queue.add(i);
         while (queue.size() > 1) {
-            c = (c+k-1)%queue.size();
-            int a = queue.get(c);
+            for (int i=0; i<k-1; i++) {
+                queue.addLast(queue.removeFirst());
+            }
             queue.remove(c);
-            queue.add(a);
             System.out.println(queue);
         }
         return queue.get(0);
