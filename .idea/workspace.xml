@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="507d9baa-d2f0-46cb-be2c-c948cdfa17bc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Ch4/Test19_B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch5/Test05.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Solving-Problem/Ch3/SimpleList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Solving-Problem/Ch3/SimpleList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Solving-Problem/Ch4/Test19_B.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Solving-Problem/Ch4/Test19_B.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Solving-Problem/Ch5/Test04_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Solving-Problem/Ch5/Test04_1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ch4/Test19.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ch4/Test19_A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ch3/SimpleList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ch3/SimpleList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ch4/Test19_B.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ch4/Test19_B.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Ch5/Test04_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ch5/Test04_1.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,7 +51,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test19_B">
+  <component name="RunManager" selected="Application.Test05">
     <configuration name="Test03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Ch5.Test03" />
       <module name="Solving-Problem" />
@@ -75,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test16" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ch4.Test16" />
+    <configuration name="Test05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ch5.Test05" />
       <module name="Solving-Problem" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Ch4.*" />
+          <option name="PATTERN" value="Ch5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test05" />
         <item itemvalue="Application.Test19_B" />
         <item itemvalue="Application.Test04_1" />
         <item itemvalue="Application.Test03" />
         <item itemvalue="Application.Test17" />
-        <item itemvalue="Application.Test16" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +156,9 @@
       <workItem from="1571015040507" duration="6429000" />
       <workItem from="1571022137271" duration="135000" />
       <workItem from="1571032885092" duration="32000" />
-      <workItem from="1571142494650" duration="4886000" />
+      <workItem from="1571142494650" duration="5765000" />
+      <workItem from="1571286694716" duration="380000" />
+      <workItem from="1571288557658" duration="2036000" />
     </task>
     <servers />
   </component>

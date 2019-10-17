@@ -26,8 +26,6 @@ public class Test19_B {
         int price[]= {100,90,80,70,85,95,110,120};
         int span[]=new int[price.length];
         Stack<Point> stack = new Stack<>();
-        span[0] = 1;
-        stack.push(new Point(0, price[0]));
 
         for (int i=0; i<price.length; i++) {
             while (!stack.isEmpty()) {

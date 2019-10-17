@@ -8,13 +8,12 @@ public class Test04_1 {
     }
     private static int solveJosephusProblem(int n, int k) {
         LinkedList<Integer> queue = new LinkedList<>();
-        int c = 0;
         for (int i=1; i<=n; i++) queue.add(i);
         while (queue.size() > 1) {
             for (int i=0; i<k-1; i++) {
                 queue.addLast(queue.removeFirst());
             }
-            queue.remove(c);
+            queue.removeFirst();
             System.out.println(queue);
         }
         return queue.get(0);

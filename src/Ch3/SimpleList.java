@@ -45,7 +45,7 @@ public class SimpleList {
         } else {
             tail.next = newNode;
             newNode.prev = tail;
-            tail = newNode;
+            tail = tail.next;
         }
     }
 
@@ -88,6 +88,7 @@ public class SimpleList {
 
     public int get(int i) {
         Node p = head;
+        if (i<0 || i>=size()) throw new RuntimeException();
         while (i>0) {
             p = p.next;
             i--;
