@@ -6,7 +6,7 @@ public class Test06 {
         int k = 4;
         int m = 1;
 
-        for (int i=0; i<k; i++) {
+        for (int i=1; i<k; i++) {
             m = m * 10;
         }
 

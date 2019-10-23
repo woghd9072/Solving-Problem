@@ -61,7 +61,7 @@ public class SimpleList {
             head = head.next;
             head.prev = null;
             p.next = null;
-        }
+        } else throw new RuntimeException();
     }
 
     public void removeLast() {
@@ -73,7 +73,7 @@ public class SimpleList {
             }
             if (prev != null) prev.next = null;
             else head = null;
-        }
+        } else throw new RuntimeException();
     }
 
     public int size() {
