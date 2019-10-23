@@ -3,30 +3,22 @@ package Ch3;
 public class SimpleList {
     Node head, tail;
 
-//    public void addFirst(int data) {
-//        Node newNode = new Node(data);
-//        if (head == null) {
-//            head = newNode;
-//            tail = newNode;
-//        } else {
-//            newNode.next = head;
-//            head = newNode;
-//            tail = head.next;
-//        }
-//    }
-
-    public void addFirst(int data) {
+    public void addFirst(int data){
         Node newNode = new Node(data);
-        if (head != null) {
-            head.prev = newNode;
-            newNode.next = head;
-            head = newNode;
-            tail = head.next;
-        } else {
+        if (head == null) {
             head = newNode;
             tail = newNode;
+        } else {
+            newNode.next = head;
+            head.prev = newNode;
+            head = newNode;
         }
     }
+//    public void addFirst(int data){
+//        Node newNode = new Node(data);
+//        newNode.next = head;
+//        head = newNode;
+//    }
 
 //    public void addLast(int data) {
 //        Node newNode = new Node(data);
@@ -39,12 +31,11 @@ public class SimpleList {
 
     public void addLast(int data) {
         Node newNode = new Node(data);
-        if (head == null && tail == null) {
+        if (tail == null) {
             head = newNode;
             tail = newNode;
         } else {
             tail.next = newNode;
-            newNode.prev = tail;
             tail = tail.next;
         }
     }
@@ -56,24 +47,33 @@ public class SimpleList {
 //    }
 
     public void removeFirst() {
-        if (head != null) {
-            Node p = head;
+        if (head == null) throw new RuntimeException();
+        else if (head.next == null) head = tail = null;
+        else {
+            head.next.prev = null;
             head = head.next;
-            head.prev = null;
-            p.next = null;
-        } else throw new RuntimeException();
+        }
     }
 
+//    public void removeLast() {
+//        if (head != null) {
+//            Node p = head, prev = null;
+//            while (p.next != null) {
+//                prev = p;
+//                p = p.next;
+//            }
+//            if (prev != null) prev.next = null;
+//            else head = null;
+//        } else throw new RuntimeException();
+//    }
+
     public void removeLast() {
-        if (head != null) {
-            Node p = head, prev = null;
-            while (p.next != null) {
-                prev = p;
-                p = p.next;
-            }
-            if (prev != null) prev.next = null;
-            else head = null;
-        } else throw new RuntimeException();
+        if (head == null) throw new RuntimeException();
+        else if (head.next == null) head = tail = null;
+        else {
+            tail.next.prev = null;
+            tail = tail.prev;
+        }
     }
 
     public int size() {
