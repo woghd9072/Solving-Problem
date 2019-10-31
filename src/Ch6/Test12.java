@@ -7,14 +7,18 @@ public class Test12 {
     }
     private static boolean palindrome(String s, int i) {
         char c[] = s.toCharArray();
-        int j = s.length()-1;
-        int mid = s.length()-1 / 2;
+        int mid = c.length/2;
 
-        if (c[i] == c[j] || i == mid || j == mid) {
-            palindrome(s, i+1);
-            palindrome(s, j-1);
-            return true;
-        } else if (i == mid || j == mid) return false;
-        else return false;
+        if (i < mid) {
+            if (c[i] == c[(c.length-1)-i]) {
+                palindrome(s, i+1);
+                return true;
+            } else {
+                palindrome(s, i+1);
+                return false;
+            }
+        }
+        else
+            return false;
     }
 }
