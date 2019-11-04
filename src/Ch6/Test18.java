@@ -6,11 +6,12 @@ public class Test18 {
     }
 
     private static long fibo(int i) {
-        long a = i;
+        long a = i, b = 0;
         if (i <= 2) return i-1;
         while (i > 0) {
-            fibo(i-2) + fibo(i-1);
+            b = fibo((int) (a-2)) + fibo((int) (a-1));
+            i--;
         }
-        return a;
+        return b;
     }
 }

@@ -2,23 +2,12 @@ package Ch6;
 
 public class Test12 {
     public static void main(String[] args) {
-        String s="ABCDEECBA";
+        String s="ABCDEDCBA";
         System.out.println(palindrome(s, 0));
     }
     private static boolean palindrome(String s, int i) {
-        char c[] = s.toCharArray();
-        int mid = c.length/2;
-
-        if (i < mid) {
-            if (c[i] == c[(c.length-1)-i]) {
-                palindrome(s, i+1);
-                return true;
-            } else {
-                palindrome(s, i+1);
-                return false;
-            }
-        }
-        else
-            return false;
+        if (i == s.length()/2) return true;
+        if (s.charAt(i) != s.charAt(s.length()-1-i)) return false;
+        return palindrome(s, i+1);
     }
 }

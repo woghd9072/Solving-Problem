@@ -8,9 +8,8 @@ public class Test10 {
         System.out.println(v);
     }
     private static void toUpper(char[] v, int i) {
-        if ('a' <= v[i] && v[i] <= 'z') {
-            v[i] = (char) (v[i] + 32);
-        }
+        if ('a' <= v[i] && v[i] <= 'z') v[i] += 'A' - 'a';
+
         if (i < v.length-1) toUpper(v, i+1);
     }
 }
