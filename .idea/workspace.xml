@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="507d9baa-d2f0-46cb-be2c-c948cdfa17bc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Ch6/Test22.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch6/Test23_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch6/Test23_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch6/Test23_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch6/Test23_4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch7/Test01_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch7/Test01_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch7/Test02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch7/Test03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch7/Test04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch7/Test05.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Solving-Problem/Ch6/Test18.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Solving-Problem/Ch6/Test18.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ch6/Test18.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ch6/Test18.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,13 +51,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test23_5">
-    <configuration name="Test23_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ch6.Test23_1" />
+  <component name="RunManager" selected="Application.Test04">
+    <configuration name="Test01_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ch7.Test01_1" />
       <module name="Solving-Problem" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Ch6.*" />
+          <option name="PATTERN" value="Ch7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -65,12 +65,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test23_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ch6.Test23_2" />
+    <configuration name="Test01_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ch7.Test01_2" />
       <module name="Solving-Problem" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Ch6.*" />
+          <option name="PATTERN" value="Ch7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test23_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ch6.Test23_3" />
+    <configuration name="Test02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ch7.Test02" />
       <module name="Solving-Problem" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Ch6.*" />
+          <option name="PATTERN" value="Ch7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test23_4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ch6.Test23_4" />
+    <configuration name="Test04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ch7.Test04" />
       <module name="Solving-Problem" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Ch6.*" />
+          <option name="PATTERN" value="Ch7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test04" />
+        <item itemvalue="Application.Test02" />
+        <item itemvalue="Application.Test01_2" />
+        <item itemvalue="Application.Test01_1" />
         <item itemvalue="Application.Test23_5" />
-        <item itemvalue="Application.Test23_4" />
-        <item itemvalue="Application.Test23_3" />
-        <item itemvalue="Application.Test23_2" />
-        <item itemvalue="Application.Test23_1" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +165,8 @@
       <workItem from="1571883293828" duration="4278000" />
       <workItem from="1572224058315" duration="6930000" />
       <workItem from="1572497730976" duration="3384000" />
-      <workItem from="1572829460584" duration="5999000" />
+      <workItem from="1572829460584" duration="6478000" />
+      <workItem from="1573102772990" duration="2492000" />
     </task>
     <servers />
   </component>
