@@ -30,3 +30,9 @@
 
 ### [ch7](https://github.com/woghd9072/Solving-Problem/tree/master/src/Ch7)
 - (정렬)
+
+### [ch8](https://github.com/woghd9072/Solving-Problem/tree/master/src/Ch8)
+- (이진탐색)
+
+### [ch9](https://github.com/woghd9072/Solving-Problem/tree/master/src/Ch9)
+- (이진탐색트리)

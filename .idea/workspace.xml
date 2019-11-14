@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="507d9baa-d2f0-46cb-be2c-c948cdfa17bc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Ch7/Test01_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch7/Test01_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch7/Test02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch7/Test03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch7/Test04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch7/Test05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch8/Test01_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch8/Test01_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch8/Test03_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch8/Test03_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch9/Test01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -51,13 +50,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test04">
+  <component name="RunManager" selected="Application.Test03_1">
     <configuration name="Test01_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ch7.Test01_1" />
+      <option name="MAIN_CLASS_NAME" value="Ch8.Test01_1" />
       <module name="Solving-Problem" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Ch7.*" />
+          <option name="PATTERN" value="Ch8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -65,12 +64,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test01_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ch7.Test01_2" />
+    <configuration name="Test01_2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ch8.Test01_2" />
       <module name="Solving-Problem" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Ch7.*" />
+          <option name="PATTERN" value="Ch8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,6 +90,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test03_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ch8.Test03_1" />
+      <module name="Solving-Problem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Ch8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Ch7.Test04" />
       <module name="Solving-Problem" />
@@ -104,26 +116,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test23_5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ch6.Test23_5" />
-      <module name="Solving-Problem" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Ch6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test03_1" />
+        <item itemvalue="Application.Test01_2 (1)" />
+        <item itemvalue="Application.Test01_1" />
         <item itemvalue="Application.Test04" />
         <item itemvalue="Application.Test02" />
-        <item itemvalue="Application.Test01_2" />
-        <item itemvalue="Application.Test01_1" />
-        <item itemvalue="Application.Test23_5" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +165,9 @@
       <workItem from="1572224058315" duration="6930000" />
       <workItem from="1572497730976" duration="3384000" />
       <workItem from="1572829460584" duration="6478000" />
-      <workItem from="1573102772990" duration="2492000" />
+      <workItem from="1573102772990" duration="3048000" />
+      <workItem from="1573534446545" duration="216000" />
+      <workItem from="1573707385327" duration="3320000" />
     </task>
     <servers />
   </component>
