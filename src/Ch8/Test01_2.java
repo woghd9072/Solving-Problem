@@ -11,20 +11,14 @@ public class Test01_2 {
         System.out.println(search(v, key));
     }
     private static int search(int[] v, int key) {
-        int i = 0;
-        int v1[];
-        v1 = v;
-        v1[v.length] = key;
+        int i = 0, lastValue = v[v.length-1];
+        v[v.length-1] = key;
 
-        while (true) {
-            if (v[i] == v1[v.length])
-                break;
-            else
-                i++;
-        }
+        while (v[i] != key) i++;
 
-        if (i == v.length) return -1;
-        else return i;
-
+        v[v.length-1] = lastValue;
+        if (i < v.length-1) return i;
+        if (lastValue == key) return v.length-1;
+        else return -1;
     }
 }

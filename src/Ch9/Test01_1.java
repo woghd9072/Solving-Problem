@@ -2,7 +2,7 @@ package Ch9;
 
 import java.util.LinkedList;
 
-public class Test01 {
+public class Test01_1 {
     public static void main(String[] args) {
         BinarySearchTree tree=new BinarySearchTree();
         int n[]={50,20,70,10,30,5,15,25,60,90,62,65,64,35};
@@ -31,7 +31,17 @@ class BinarySearchTree {
     BinaryTree root;
 
     public void add(int key) {
-        root = add(root, key);
+        BinaryTree tree = root;
+        if (tree == null) tree = new BinaryTree(key);
+        while (tree != null) {
+            if (tree.key < key) {
+                tree = tree.right;
+                tree = new BinaryTree(key);
+            } else {
+                tree = tree.left;
+                tree = new BinaryTree(key);
+            }
+        }
     }
 
     private BinaryTree add(BinaryTree tree, int key) {
@@ -43,17 +53,14 @@ class BinarySearchTree {
     }
 
     public BinaryTree search(int key) {
-        BinaryTree node = root;
-        while (node != null) {
-            if (node.key == key) return node;
-            if (node.key < key) node = node.right;
-            else node = node.left;
-        }
-        return node;
+        return searchRecur(root, key);
     }
 
     public BinaryTree searchRecur(BinaryTree node, int key) {
-
+        if (node == null) return null;
+        if (node.key == key) return node;
+        if (node.key < key) return searchRecur(node.right, key);
+        else return searchRecur(node.left, key);
     }
 
     @Override
