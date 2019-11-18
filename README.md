@@ -36,3 +36,6 @@
 
 ### [ch9](https://github.com/woghd9072/Solving-Problem/tree/master/src/Ch9)
 - (이진탐색트리)
+
+### [ch10](https://github.com/woghd9072/Solving-Problem/tree/master/src/Ch10)
+- (이진힙)
