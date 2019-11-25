@@ -27,9 +27,7 @@ public class Test05 {
     }
 
     private static int peek(int[] heap) {
-        int[] arr = heap;
-        Arrays.sort(arr);
-        return arr[arr.length-1];
+        return heap[0];
     }
 
     private static void heapifyDown(int[] heap, int last, int p) {
