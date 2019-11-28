@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="507d9baa-d2f0-46cb-be2c-c948cdfa17bc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Ch11/Test01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch11/Test02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch11/Test03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch11/Test04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch7/Test13.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch7/Test14.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch7/Test15.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ch10/Test05.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ch10/Test05.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Solving-Problem/Ch8/Test03_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Solving-Problem/Ch8/Test03_2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ch7/Test05.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ch7/Test05.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ch7/Test15.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ch7/Test15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ch8/Test03_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ch8/Test03_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ch9/Test01_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ch9/Test01_1.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +35,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunDashboard">
@@ -53,7 +50,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test04 (1)">
+  <component name="RunManager" selected="Application.Test01_1">
+    <configuration name="Test01_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ch9.Test01_1" />
+      <module name="Solving-Problem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Ch9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Ch11.Test03" />
       <module name="Solving-Problem" />
@@ -67,38 +77,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test03_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ch8.Test03_2" />
+      <module name="Solving-Problem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Ch8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test04 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Ch11.Test04" />
       <module name="Solving-Problem" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Ch11.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ch10.Test05" />
-      <module name="Solving-Problem" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Ch10.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ch7.Test13" />
-      <module name="Solving-Problem" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Ch7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test01_1" />
+        <item itemvalue="Application.Test03_2" />
         <item itemvalue="Application.Test04 (1)" />
         <item itemvalue="Application.Test03" />
         <item itemvalue="Application.Test14" />
-        <item itemvalue="Application.Test13" />
-        <item itemvalue="Application.Test05" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +172,10 @@
       <workItem from="1574139724686" duration="8000" />
       <workItem from="1574312342160" duration="2828000" />
       <workItem from="1574489904810" duration="371000" />
-      <workItem from="1574644442740" duration="5542000" />
+      <workItem from="1574644442740" duration="7034000" />
+      <workItem from="1574755633580" duration="4106000" />
+      <workItem from="1574840076332" duration="60000" />
+      <workItem from="1574908112525" duration="1821000" />
     </task>
     <servers />
   </component>

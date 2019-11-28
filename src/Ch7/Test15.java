@@ -19,6 +19,14 @@ public class Test15 {
             if (v[i] < min) min = v[i];
         }
         int[] count = new int[(max - min)+1];
-        
+
+        for(int i = 0; i < v.length; i++)   {
+            count[v[i] - min]++;
+        }
+
+        for(int i = 0, k = 0; i < count.length; i++) {
+            while(count[i]-- > 0)
+                v[k++] = i + min;
+        }
     }
 }

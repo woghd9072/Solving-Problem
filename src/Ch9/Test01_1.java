@@ -10,14 +10,14 @@ public class Test01_1 {
         System.out.println(tree.search(30));
         System.out.println(tree.search(33));
         System.out.println(tree);
-        //System.out.println(BinarySearchTree.inorder(tree.root));
+        System.out.println(BinarySearchTree.inorder(tree.root));
     }
 }
 class BinarySearchTree {
     class BinaryTree {
+
         int key;
         BinaryTree left, right;
-
         public BinaryTree(int key) {
             this.key = key;
         }
@@ -26,20 +26,34 @@ class BinarySearchTree {
         public String toString() {
             return Integer.toString(key);
         }
-    }
 
+    }
     BinaryTree root;
 
     public void add(int key) {
-        BinaryTree tree = root;
-        if (tree == null) tree = new BinaryTree(key);
-        while (tree != null) {
-            if (tree.key < key) {
-                tree = tree.right;
-                tree = new BinaryTree(key);
-            } else {
-                tree = tree.left;
-                tree = new BinaryTree(key);
+        BinaryTree newNode = new BinaryTree(key);
+        if (root == null) root = newNode;
+        else {
+            BinaryTree tree = root;
+            BinaryTree parent = null;
+
+            while (true) {
+                parent = tree;
+
+                if (tree.key < key) {
+                    tree = tree.right;
+                    if (tree == null) {
+                        parent.right = newNode;
+                        return;
+                    }
+                }
+                else if (tree.key > key) {
+                    tree = tree.left;
+                    if (tree == null) {
+                        parent.left = newNode;
+                        return;
+                    }
+                }
             }
         }
     }
@@ -61,6 +75,11 @@ class BinarySearchTree {
         if (node.key == key) return node;
         if (node.key < key) return searchRecur(node.right, key);
         else return searchRecur(node.left, key);
+    }
+
+    public static String inorder(BinaryTree root) {
+        if (root == null) return "";
+        return inorder(root.left) + " " + root.key + " " + inorder(root.right);
     }
 
     @Override
