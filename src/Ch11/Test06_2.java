@@ -32,10 +32,8 @@ public class Test06_2 {
     private static int[] connected(LinkedList<Integer>[] adjList, int v) {
         int[] w = new int[v];
         int groupId = 0;
-        for (int i=0; i<w.length; i++) {
-            if (w[i] == 0) {
-                dfs(adjList, v, w, i, ++groupId);
-            }
+        for (int i=0; i<v; i++) {
+            if (w[i] == 0) dfs(adjList, v, w, i, ++groupId);
         }
         return w;
     }

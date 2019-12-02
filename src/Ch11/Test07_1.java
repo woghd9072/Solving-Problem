@@ -3,7 +3,7 @@ package Ch11;
 import java.util.Arrays;
 import java.util.LinkedList;
 
-public class Test07 {
+public class Test07_1 {
     public static void main(String[] args) {
         String input="0 1 0 2 0 3 1 4 1 5 2 5 2 6 3 6 3 7 3 8 4 9 5 9 6 9 6 10 7 10 8 10 9 11 10 11";
         int V=12;

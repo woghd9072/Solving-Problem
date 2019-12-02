@@ -42,3 +42,6 @@
 
 ### [ch11](https://github.com/woghd9072/Solving-Problem/tree/master/src/Ch11)
 - (그래프)
+
+# [ch12](https://github.com/woghd9072/Solving-Problem/tree/master/src/Ch12)
+- (서로소집합)
