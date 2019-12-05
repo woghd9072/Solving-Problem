@@ -8,6 +8,7 @@ public class UF {
     public UF(int N) {
         parent = new int[N];
         rank = new int[N];
+        count = N;
         for (int i=0; i<parent.length; i++) {
             parent[i] = i;
         }
