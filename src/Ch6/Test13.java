@@ -10,13 +10,10 @@ public class Test13 {
     }
 
     private static void reverse(int[] n, int i) {
-        int mid = n.length/2;
-        if (i < mid) {
-            int temp = n[i];
-            n[i] = n[n.length-1-i];
-            n[n.length-1-i] = temp;
-            reverse(n, i+1);
-        } else
-            return;
+        if (i >= n.length/2) return;
+        int temp = n[i];
+        n[i] = n[n.length-1-i];
+        n[n.length-1-i] = temp;
+        reverse(n, i+1);
     }
 }
