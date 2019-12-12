@@ -27,8 +27,14 @@ public class UF {
     }
 
     public int find(int i) { // path compression
-        if(i != parent[i]) parent[i] = find(parent[i]);
-        return parent[i];
+        int root = i;
+        while (root != parent[root]) root = parent[root];
+        while (i != parent[i]) {
+            int temp = parent[i];
+            parent[i] = root;
+            i = temp;
+        }
+        return root;
     }
 
     @Override

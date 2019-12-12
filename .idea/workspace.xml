@@ -2,14 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="507d9baa-d2f0-46cb-be2c-c948cdfa17bc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Ch13/Test05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch13/Test06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch13/Test06_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch13/Test06_4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch13/Test06_5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ch12/UF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ch12/UF.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Solving-Problem" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -175,7 +182,8 @@
       <workItem from="1574917566907" duration="2665000" />
       <workItem from="1575249170698" duration="5234000" />
       <workItem from="1575522159229" duration="2618000" />
-      <workItem from="1575954260469" duration="693000" />
+      <workItem from="1575954260469" duration="1547000" />
+      <workItem from="1576127568107" duration="1700000" />
     </task>
     <servers />
   </component>

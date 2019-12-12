@@ -2,13 +2,16 @@ package Ch10;
 
 import java.util.Arrays;
 
-public class Test05 {
+public class Test05_2 {
     public static void main(String[] args) {
         int heap[]= {3,1,2,8,7,9,4,6,5,4};
         int last=heap.length-1;
+
         for (int i = heap.length/2; i >=0; i--) heapifyDown(heap, last, i); // max-heap 빌드 O(n) -> min-heap
+
         System.out.println(Arrays.toString(heap));
         System.out.println("최대값="+peek(heap)); // 최대값 출력
+
         for (int i = 0; i < 5; i++) { // 상위 5개 자료 추출
              System.out.print(remove(heap, last--)+" "); // 각 추출 후 힙 크기 1 감소
         }
@@ -16,8 +19,10 @@ public class Test05 {
 
     private static int remove(int[] heap, int last) {
         if(last<0) throw new RuntimeException("heap empty");
+
         int data=heap[0];
         heap[0]=heap[last--];
+
         for (int parent=0, child=2*parent+1; child<=last; parent=child, child=2*parent+1) {
             if(child<last && heap[child]<heap[child+1]) child++;
             if(heap[child]<=heap[parent]) break;
